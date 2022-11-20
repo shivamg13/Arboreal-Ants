@@ -12,6 +12,7 @@ You can start by cloning our repository and following the steps below.
 
     ```
     conda create --name ants-are-awesome python=3.9
+    conda activate ants-are-awesome
     pip install -r requirements.txt
     ```
 
