@@ -57,7 +57,7 @@ def main(args):
     
     log_path = os.path.join(args.out_dir,'log.txt')
 
-    helper.log_output(f"We log the minimum of normalized forward and backward  flows across all edges on the optimum path. Here, by normalized forward (backward) flow at an edge (u,v), we refer to the fraction of forward (backward) flow entering it from the total flow present at vertex u (v). For the linear decision rule, normalized forward and backward flows are same as normalized forward and backward pheromone levels.", log_path, args.print_to_console)
+    helper.log_output(f"We log the minimum of normalized forward and backward  flows across all edges on the optimum path. Here, by normalized forward (backward) flow at an edge (u,v), we refer to the fraction of forward (backward) flow entering it from the total flow present at vertex u (v). For the linear decision rule, normalized forward and backward flows are same as normalized forward and backward pheromone levels.\n", log_path, args.print_to_console)
     
     for i in range(num_instances):
         helper.log_output(f"Instance number {i+start_seed}", log_path, args.print_to_console)
