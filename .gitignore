@@ -1,3 +1,4 @@
 logs
 .ipynb_checkpoints
 __pycache__
+run.sh
