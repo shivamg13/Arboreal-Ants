@@ -21,7 +21,6 @@ You can start by cloning our repository and following the steps below.
     ```
     cd src
     python main.py --config conf/linear/gnp-local_inc-flow.yaml
-    
     ```
     
     To run for other graph types or decision rules, change the config file above. For each graph type and decision rule, there is a yaml config file in `src/conf`. To change graph parameters (e.g., n and p in the Gnp graph), edit the corresponding config file.
