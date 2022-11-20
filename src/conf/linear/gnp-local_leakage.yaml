@@ -1,0 +1,12 @@
+inherit: 
+    - base.yaml
+
+min_leakage: True
+
+graph_type: 'gnp_local'
+num_nodes: 100
+p_graph: 0.5
+win_size: 10
+with_loop: False
+
+random_init: False

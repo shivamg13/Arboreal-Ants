@@ -1,0 +1,12 @@
+inherit: 
+    - ../base.yaml
+
+min_leakage: False
+
+graph_type: 'gnp'
+num_nodes: 100
+p_graph: 0.1
+with_loop: False
+
+non_lin: 'quad'
+no_lin: True

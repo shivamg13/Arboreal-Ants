@@ -1,0 +1,10 @@
+num_instances: 400
+start_seed: 0
+conv_thold: 0.99
+no_lin: True
+print_period: 100
+convergence_check_period: 100
+max_iter: 10000
+decay: 0.9
+random_init: False
+out_dir: ../logs/non_linear

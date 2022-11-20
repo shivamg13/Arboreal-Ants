@@ -1,0 +1,9 @@
+num_instances: 100
+start_seed: 0
+conv_thold: 0.99
+no_lin: False
+print_period: 1000
+convergence_check_period: 1000
+max_iter: 500000000
+decay: 0.9
+out_dir: ../logs/linear

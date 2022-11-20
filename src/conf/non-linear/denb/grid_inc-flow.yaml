@@ -1,0 +1,13 @@
+inherit: 
+    - ../base.yaml
+
+min_leakage: False
+
+graph_type: 'grid'
+num_nodes: 100
+
+non_lin: 'denb'
+no_lin: True
+k_init: 1
+
+conv_thold: 0.95

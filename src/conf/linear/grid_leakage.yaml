@@ -1,0 +1,9 @@
+inherit: 
+    - base.yaml
+
+min_leakage: True
+
+graph_type: 'grid'
+num_nodes: 100
+
+random_init: False

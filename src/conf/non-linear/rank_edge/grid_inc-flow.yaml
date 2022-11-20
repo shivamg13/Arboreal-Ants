@@ -1,0 +1,10 @@
+inherit: 
+    - ../base.yaml
+
+min_leakage: False
+
+graph_type: 'grid'
+num_nodes: 100
+
+non_lin: 'rank_edge'
+no_lin: True
