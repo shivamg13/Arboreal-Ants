@@ -81,7 +81,6 @@ def main(args):
         elif graph_type == 'gnp':
             n = args.num_nodes #number of nodes
             p = args.p_graph
-            adj = gg.g_np(n,p, not min_leakage, args.with_loop) #Directed adjacency matrix
             has_path = False
             #Keep sampling new graphs until it has at least one path from source to destination
             while not has_path:
